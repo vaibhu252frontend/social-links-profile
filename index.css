@@ -17,7 +17,7 @@ html{
 }
 main {
   background-color: black;
-  height: 100vh;
+  min-height: 100vh;
   color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: center;
@@ -35,6 +35,12 @@ main {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+@media (max-width: 600px) {
+     
+     .profile{
+          width:80%;
+     }
+ }
 img {
   width: 100px;
   height: auto;
